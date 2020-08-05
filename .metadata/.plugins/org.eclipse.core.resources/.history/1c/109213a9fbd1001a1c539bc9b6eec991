@@ -1,0 +1,15 @@
+package caudieukien;
+
+import java.util.Scanner;
+
+public class Mennu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner nhap = new Scanner(System.in);
+		System.out.println("Nhập x");
+		
+		int x = nhap.nextInt();
+	}
+
+}

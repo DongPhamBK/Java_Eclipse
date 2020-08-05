@@ -1,0 +1,12 @@
+import chuvidientich.*;//import thư viện, tốt nhất để dạng all cho tiện
+
+public class DienTich {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 84;
+		int b = 34;
+System.out.println(HinhChuNhat.dienTich(a, b));
+	}
+
+}

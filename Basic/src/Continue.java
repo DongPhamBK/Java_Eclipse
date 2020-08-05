@@ -1,0 +1,18 @@
+
+public class Continue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for (int i = 0; i < 10; i++) {
+
+			if (i > 5)
+				continue;// gặp continue, thực hiện vòng lặp
+			// tiếp mà không cần quan tâm đoạn sau
+			System.out.println(i);// khi i > 5 nó bơ luôn rồi
+			i++;
+		}
+	}
+	//tương tự break, chỉ trong 1 vòng lặp
+
+}

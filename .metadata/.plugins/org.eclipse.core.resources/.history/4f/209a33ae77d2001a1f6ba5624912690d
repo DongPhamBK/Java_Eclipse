@@ -1,0 +1,16 @@
+package OOP;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Person n1 = new Person();
+		n1.setTen("kios");
+		n1.setTuoi(12);
+		
+		System.out.println("Đối tượng" + n1.getTen() + n1.getTuoi());
+		
+	}
+
+}

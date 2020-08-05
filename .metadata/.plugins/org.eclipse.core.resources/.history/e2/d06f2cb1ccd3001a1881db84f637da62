@@ -1,0 +1,4 @@
+Về các kiểu quản lý truy cập, xin nhắc lại:
+Public : free;
+Private : Chỉ dùng trong class đó
+public

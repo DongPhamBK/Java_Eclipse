@@ -1,0 +1,14 @@
+
+public class TangGiam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void K(int i)
+	{
+		System.out.println(i);
+	}
+
+}

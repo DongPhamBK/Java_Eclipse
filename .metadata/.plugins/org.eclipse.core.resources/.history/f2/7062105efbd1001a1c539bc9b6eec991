@@ -1,0 +1,10 @@
+package caudieukien;
+
+public class Mennu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner nhap = new Scanner(System.in);
+	}
+
+}

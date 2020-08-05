@@ -1,0 +1,27 @@
+package company;
+
+public class NhanVien {
+	private String ten;
+	private String tuoi;
+	private String nha;
+	public String getTen() {
+		return ten;
+	}
+	public void setTen(String ten) {
+		this.ten = ten;
+	}
+	public String getTuoi() {
+		return tuoi;
+	}
+	public void setTuoi(String tuoi) {
+		this.tuoi = tuoi;
+	}
+	public String getNha() {
+		return nha;
+	}
+	public void setNha(String nha) {
+		this.nha = nha;
+	}
+	
+
+}

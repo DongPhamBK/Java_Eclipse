@@ -1,0 +1,8 @@
+package chuvidientich;
+
+public class HinhVuong {
+public static int chuVi(int dai, int rong)
+{
+	return (dai + rong)*2;
+}
+}

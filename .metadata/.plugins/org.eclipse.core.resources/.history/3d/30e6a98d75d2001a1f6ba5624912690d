@@ -1,0 +1,7 @@
+Cấu trúc chương trình Java :
+Nhiều đối tượng
+Thể hiện bằng class
+
+Về nhập bàn phím :
+nên đọc String trước, vì để sau thì nó sẽ đọc lệnh enter
+nếu muốn đọc sau, khai bao một Scanner mới !

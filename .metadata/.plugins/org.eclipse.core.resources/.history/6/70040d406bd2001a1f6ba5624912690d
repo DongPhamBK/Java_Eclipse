@@ -1,0 +1,16 @@
+package application;
+
+import java.util.*;
+
+public class Equation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		System.out.println("Nhập a = ");
+		int a=  input.nextInt();
+		
+	}
+
+}

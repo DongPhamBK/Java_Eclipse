@@ -1,0 +1,17 @@
+package OOP;
+
+public class People {
+
+	String ten;
+	int tuoi;
+	
+	public void action(String ten)
+	{
+		System.out.println(ten + "hoạt động !");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

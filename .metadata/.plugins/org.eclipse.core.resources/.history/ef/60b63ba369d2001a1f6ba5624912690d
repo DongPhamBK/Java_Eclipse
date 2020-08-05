@@ -1,0 +1,16 @@
+
+public class TangGiam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int i = 9;
+		K(i);
+	}
+	
+	public static void K(int i)
+	{
+		System.out.println(i);
+	}
+
+}

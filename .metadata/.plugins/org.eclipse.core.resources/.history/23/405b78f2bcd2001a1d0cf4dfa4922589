@@ -1,0 +1,48 @@
+package OOP;
+
+public class Action {
+
+	String chay;
+	String an;
+	String ngu;
+	
+	
+	//constructor
+	//có tác dụng như mặc định tham số
+	
+	public Action()
+	{
+		
+	}
+	
+	public Action()
+	{
+		this.chay = chay;
+	}
+
+	public String getChay() {
+		return chay;
+	}
+
+	public void setChay(String chay) {
+		this.chay = chay;
+	}
+
+	public String getAn() {
+		return an;
+	}
+
+	public void setAn(String an) {
+		this.an = an;
+	}
+
+	public String getNgu() {
+		return ngu;
+	}
+
+	public void setNgu(String ngu) {
+		this.ngu = ngu;
+	}
+	
+	
+}
