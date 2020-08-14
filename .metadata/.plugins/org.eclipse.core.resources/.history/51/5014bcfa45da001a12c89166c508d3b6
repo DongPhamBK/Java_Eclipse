@@ -1,0 +1,9 @@
+package outer;
+
+public class Person {
+
+}
+// outer class
+class Kid{
+	
+}

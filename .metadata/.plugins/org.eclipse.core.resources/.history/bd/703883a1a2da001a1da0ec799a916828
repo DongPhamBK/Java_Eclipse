@@ -1,0 +1,7 @@
+Exp là lỗi xảy ra trong chương trình, khiến chương trình dừng lại !!!
+try catch: khi có lỗi xảy ra sẽ bay vào catch
+Exception là class cha của mọi loại lỗi
+
+finally đặt cuối cùng, luôn được thực hiện bất chấp !!!
+
+Đẩy ra exception

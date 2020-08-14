@@ -1,0 +1,9 @@
+package wrapper;
+
+public class Caculator {
+	public static void main(String[] args) {
+		System.out.println(Math.sqrt(10));
+		System.out.println(Math.random());
+		System.out.println(Math.PI);
+	}
+}

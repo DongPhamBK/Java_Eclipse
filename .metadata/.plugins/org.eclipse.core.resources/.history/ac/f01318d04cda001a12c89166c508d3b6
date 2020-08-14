@@ -1,0 +1,10 @@
+package inner;
+
+public class Employee {
+public void luong(){
+	// khai báo một class trong method
+	 class Worker{
+		
+	}
+}
+}

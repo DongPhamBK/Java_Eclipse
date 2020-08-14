@@ -1,0 +1,11 @@
+package newfile;
+
+import java.io.*;
+
+public class FileLibrary {
+	public static void main(String[] args) {
+File di = new File("hello");
+
+di.mkdir();// tạo thư mục, như command luôn !
+	}
+}

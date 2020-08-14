@@ -31,7 +31,7 @@ public class Ham {
 	}
 
 	public static void hello() {
-		System.out.println("Hello, đây chương trình ôn tập !");
+		System.out.println("Hello, đây là chương trình ôn tập !");
 	}
 
 	public static float pi() {

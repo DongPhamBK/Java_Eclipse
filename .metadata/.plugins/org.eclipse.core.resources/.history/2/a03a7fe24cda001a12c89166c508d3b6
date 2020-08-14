@@ -1,0 +1,13 @@
+package inner;
+
+public class Employee {
+public void luong(){
+	// khai báo một class trong method
+	 class Worker{
+		public int luong;
+		public void lienHoan(){
+			System.out.println("Kỷ niệm 10 năm lại là công ty !!!");
+		}
+	}
+}
+}

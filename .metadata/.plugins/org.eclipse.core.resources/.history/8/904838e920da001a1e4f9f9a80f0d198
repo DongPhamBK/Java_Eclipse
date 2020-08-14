@@ -1,0 +1,5 @@
+interface có mọi hàm là abstract, không thể khai báo bình thường được !!!
+
+interface có thể kế thừa nhiều interface khác
+Wrapper : kiểu tương tự, là class tự định nghĩa
+wrapper dùng để chuyển kiểu String về số

@@ -1,0 +1,6 @@
+package is_has;
+
+public class Employee extends Person{
+
+	public Employee
+}

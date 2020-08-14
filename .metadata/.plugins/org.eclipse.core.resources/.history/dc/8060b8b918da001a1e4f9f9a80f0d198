@@ -1,0 +1,14 @@
+package abs;
+
+public class Employee extends Person {
+
+	@Override
+	public double luong() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+//	@Override
+//	public double luong() {
+//		return 1;
+//	}
+}

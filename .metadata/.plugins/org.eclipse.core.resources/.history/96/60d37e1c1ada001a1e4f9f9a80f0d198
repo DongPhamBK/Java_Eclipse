@@ -1,0 +1,8 @@
+package inter;
+
+public interface Animal {
+public abstract void Cat();
+public void Dog();// vân là abstract
+	
+
+}

@@ -1,0 +1,7 @@
+package wrapper;
+
+public class DateTime {
+public static void main(String[] args) {
+	Date ngay  =  new Date();
+}
+}

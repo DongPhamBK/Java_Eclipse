@@ -1,0 +1,23 @@
+package inter;
+
+public class EmployeeNew implements Person, Animal{
+
+	@Override
+	public void luong() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void cat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void dog() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

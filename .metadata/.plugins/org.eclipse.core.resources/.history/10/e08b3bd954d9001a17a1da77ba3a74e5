@@ -1,0 +1,19 @@
+package application;
+
+public class Person {
+private String ten;
+private Address address;
+public String getTen() {
+	return ten;
+}
+public void setTen(String ten) {
+	this.ten = ten;
+}
+public Address getAddress() {
+	return address;
+}
+public void setAddress(Address address) {
+	this.address = address;
+}
+
+}

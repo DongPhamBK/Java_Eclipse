@@ -8,7 +8,8 @@ public class Person {
 	public String getTen() {
 		return ten;
 	}
-	public void setTen(String ten) {
+	public void setTen(String ten) 
+	{
 		this.ten = ten;
 	}
 	public int getTuoi() {

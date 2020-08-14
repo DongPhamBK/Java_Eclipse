@@ -1,0 +1,33 @@
+package thread2;
+
+
+
+public class TestThread1 implements Runnable {
+	public int tong;
+
+	public public TestThread1() {
+		this.tong = 1000;
+	}
+
+	public void rutTien() throws InterruptedException {
+		if (tong > 0) {
+			Thread.sleep(1000);
+			tong -= 100;
+			System.out.println(tong);
+		} else {
+			System.out.println("Het tien !");
+		}
+	}
+
+	@Override
+	public void run() {
+
+		try {
+			rutTien();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
+

@@ -1,0 +1,15 @@
+package inter;
+
+public class AnimalNew implements Animal {
+
+	@Override
+	public void cat() {
+		
+	}
+
+	@Override
+	public void dog() {
+		
+	}
+
+}

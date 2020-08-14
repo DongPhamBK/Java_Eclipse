@@ -1,0 +1,10 @@
+package outer;
+
+public class Person {
+
+}
+// outer class
+// class này đi kèm  
+class Kid{
+	
+}

@@ -1,0 +1,18 @@
+package inner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// anonymous class
+		
+PersonService uk = new PersonService() {
+	
+	@Override
+	public void hello() {
+		// TODO Auto-generated method stub
+		
+	}
+};
+	}
+
+}

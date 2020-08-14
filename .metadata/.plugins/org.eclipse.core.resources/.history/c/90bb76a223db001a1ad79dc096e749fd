@@ -1,0 +1,20 @@
+package newfile;
+
+import java.io.*;
+
+public class FileLibrary {
+	public static void main(String[] args) throws IOException {
+File di = new File("hello");
+
+di.mkdir();// tạo thư mục, như command luôn !
+	File a  = new File("hello/reborn.txt");
+	
+	FileReader areader = new FileReader(a);
+	
+	int c = areader.read();
+
+while(c!=-1){
+	
+}
+	}
+}

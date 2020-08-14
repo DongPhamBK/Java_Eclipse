@@ -1,0 +1,13 @@
+package wrapper;
+
+import java.util.Date;
+
+public class DateTime {
+public static void main(String[] args) {
+	Date ngay  =  new Date();// hay vãi
+	System.out.println(ngay);
+	
+	Date ngay2  =  new Date();
+	System.out.println(ngay.equals(ngay2));
+}
+}

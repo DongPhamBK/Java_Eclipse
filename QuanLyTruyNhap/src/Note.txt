@@ -6,3 +6,5 @@ public
 Stack và Heap: stack lưu các giá trị biến, heap lưu đối tượng ( mỗi khi new )
 
 Null : chưa trỏ đến đối tượng nào cả !
+
+this và super: this trỏ đến ngay bên trong chính nó, super trỏ đến class cha.

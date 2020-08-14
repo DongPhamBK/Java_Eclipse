@@ -1,0 +1,7 @@
+Tạo thread đa luồng !
+Dùng sleep để ngủ cho thread, chú ý try catch
+Dùng join để nắn thứ tự luồng ! Thời gian join có ảnh hưởng lớn đó !!!
+Có thể xếp thứ tự ưu tiên cho luồng ! Tuy nhiên cũng khó đảm bảo lắm !!!
+Chạy ngầm !!!
+syn cho phép chống xung đột thread !!!
+Tránh DeadLock !!!

@@ -1,0 +1,3 @@
+interface có mọi hàm là abstract, không thể khai báo bình thường được !!!
+
+interface có thể kế thừa nhiều interface khác

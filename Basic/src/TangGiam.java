@@ -12,17 +12,14 @@ public class TangGiam {
 		--i;
 		K(i);
 		++i;
-		K(i++);//in ra i rồi mới tăng
-		K(++i);//khá lằng nhằng
-		
+		K(i++);// in ra i rồi mới tăng
+		K(++i);// khá lằng nhằng
 		/*
-		 * b = ++i: tăng rồi gán
-		 * a = i++: gán rồi tăng
+		 * b = ++i: tăng rồi gán a = i++: gán rồi tăng
 		 */
 	}
-	
-	public static void K(int i)
-	{
+
+	public static void K(int i) {
 		System.out.println(i);
 	}
 

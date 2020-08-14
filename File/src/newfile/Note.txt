@@ -1,0 +1,3 @@
+Chú ý đường dẫn file
+
+Đừng quên close file !

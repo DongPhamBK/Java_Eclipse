@@ -1,0 +1,22 @@
+package enumperation;
+
+// tạo enum
+public enum NewEnum {
+	private String name;
+
+    TEN("VINH");
+
+	private NewEnum(String name) {
+
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

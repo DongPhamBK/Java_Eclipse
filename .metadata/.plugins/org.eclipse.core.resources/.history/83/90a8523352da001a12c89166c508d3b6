@@ -1,0 +1,16 @@
+package exp;
+
+public class NgoaiLe {
+public static void main(String[] args) {
+	int[] a = {1,2};
+	
+//	System.out.println(a[2]);// lỗi
+	try {
+		System.out.println(a[2]);
+	} catch (Exception e) {
+		System.out.println("OK");
+	}
+	System.out.println("OK");
+}
+}
+

@@ -1,0 +1,35 @@
+package thread2;
+
+
+
+public class TestThread1 implements Runnable {
+	public int tong;
+
+	public public TestThread1() {
+		// TODO Auto-generated constructor stub
+		this.tong = 1000;
+	}
+
+	public void rutTien() {
+		if (tong > 0) {
+			Thread.sleep(1000);
+			tong -= 100;
+			System.out.println(tong);
+		} else {
+			System.out.println("Het tien !");
+		}
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+		try {
+			rutTien();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
+

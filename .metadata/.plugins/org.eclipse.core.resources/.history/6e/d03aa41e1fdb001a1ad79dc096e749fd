@@ -1,0 +1,20 @@
+package thread2;
+
+public class DeadLock implements Runnable{
+
+	 public synchronized void test1(){
+		 System.out.println("T1");
+		 test2();
+	 }
+	 
+	 public synchronized void test2(){
+		 System.out.println("T2");
+		 test1();
+	 }
+	
+	@Override
+public void run() {
+	// TODO Auto-generated method stub
+	
+}
+}

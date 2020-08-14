@@ -1,0 +1,13 @@
+package newfile;
+
+import java.io.File;
+
+public class DocGhiFile {
+public static void main(String[] args) {
+	File f = new File("reborn.txt");// khởi tạo đối tượng file
+	
+	 if(!f.exists()){
+		 f.createNewFile();
+		 }
+}
+}

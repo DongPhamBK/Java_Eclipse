@@ -1,6 +1,0 @@
-Về các kiểu quản lý truy cập, xin nhắc lại:
-Public : free;
-Private : Chỉ dùng trong class đó
-public
-
-Stack và Heap: stack lưu các giá trị biến, heap lưu đối tượng

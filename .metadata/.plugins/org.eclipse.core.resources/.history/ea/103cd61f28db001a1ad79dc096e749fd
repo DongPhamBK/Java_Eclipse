@@ -1,0 +1,9 @@
+
+public class DemoJar {
+public static void main(String[] args) {
+	Hello aha = new Hello();
+	aha.xinChao();
+	aha.setK("r");
+	aha.getK();
+}
+}

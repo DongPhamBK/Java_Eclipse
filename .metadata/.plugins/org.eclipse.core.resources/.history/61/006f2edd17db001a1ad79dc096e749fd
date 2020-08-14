@@ -1,0 +1,44 @@
+package thread;
+
+public class TestThread2 extends Thread {
+	@Override
+	public void run() {
+		for (int i = 0; i < 5; i++) {
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			System.out.println(this.getName() + " " + i);// đó là lý do vì sao
+															// không thể
+															// đặt tên là name
+															// !!!
+
+		}
+	}
+
+	public static void main(String[] args) {
+		TestThread2 th1 = new TestThread2();
+		th1.setName("thr1");
+
+		TestThread2 th2 = new TestThread2();
+		th2.setName("thr2");
+
+		TestThread2 th3 = new TestThread2();
+		th3.setName("thr3");
+
+		// tạo 3 luồng và chạy nè
+		th1.start();
+		
+		// để th1 chạy trước, dùng join
+		try {
+			th1.join(5500);// có time hay không cũng được
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		th2.start();
+		th3.start();
+	}
+}

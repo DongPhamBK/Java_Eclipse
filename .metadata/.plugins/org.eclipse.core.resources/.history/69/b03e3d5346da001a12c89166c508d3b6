@@ -1,0 +1,13 @@
+package outer;
+
+public class Person {
+
+}
+// outer class
+// class này đi kèm  
+class Kid{
+	public int a;
+	public void hello(){
+		System.out.println("Hello");
+	}
+}

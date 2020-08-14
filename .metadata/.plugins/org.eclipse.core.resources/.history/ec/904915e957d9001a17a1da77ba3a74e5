@@ -1,0 +1,28 @@
+package application;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee[] ds = new Employee[3];
+		Scanner nhap = new Scanner(System.in);
+		System.out.println("Nhập danh sách nhân viên:");
+		for (int i = 0; i < ds.length; i++) {
+			System.out.println("Nhân viên thứ " + (i + 1));
+			String ten = nhap.nextLine();
+			double luong = nhap.nextDouble();
+			String tenDuong = nhap.nextLine();
+
+			Address add = new Address();
+			add.setTenDuong(tenDuong);
+
+			Employee temp = new Employee(ten, luong);
+			temp.setAddress(add);// lằng nhằng
+			ds[i] = temp;
+			nhap.nextLine();
+		}
+	}
+
+}

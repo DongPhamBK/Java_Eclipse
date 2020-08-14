@@ -1,0 +1,13 @@
+package animal;
+
+public class SubClass extends SuperClass {
+
+	@Override // để cho vui
+	public float tong(float a, float b) {
+		// TODO Auto-generated method stub
+		return a + b + 10.5;
+		// return super.tong(a, b);
+	}
+	
+	//overide là ghi đè hàm của lớp cha
+}

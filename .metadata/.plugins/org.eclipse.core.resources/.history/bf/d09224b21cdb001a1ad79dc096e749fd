@@ -1,0 +1,15 @@
+package thread2;
+
+public class TestThread implements Runnable{
+public int tong;
+public public TestThread() {
+	// TODO Auto-generated constructor stub
+this.tong  =1000;
+}
+
+@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

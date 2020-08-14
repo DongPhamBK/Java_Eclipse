@@ -1,0 +1,23 @@
+package thread;
+
+public class TestThread extends Thread {
+	private String name;
+
+	public TestThread(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+ @Override
+public void run() {
+	// TODO Auto-generated method stub
+	super.run();
+}
+}

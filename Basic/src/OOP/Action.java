@@ -9,7 +9,8 @@ public class Action {
 	// constructor
 	// có tác dụng như mặc định tham số
 
-	public Action() {
+	public Action() 
+	{
 		// trống, mặc định
 	}
 

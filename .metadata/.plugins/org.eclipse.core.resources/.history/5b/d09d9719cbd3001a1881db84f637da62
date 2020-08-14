@@ -1,8 +1,0 @@
-package p_;
-
-public class Person {
-String ten;
-private int cmnd;
-public String dantoc;
-
-}

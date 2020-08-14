@@ -1,0 +1,7 @@
+package newfile;
+import java.io.*;
+public class FileLibrary {
+public static void main(String[] args) {
+	
+}
+}

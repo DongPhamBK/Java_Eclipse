@@ -1,0 +1,8 @@
+package inner;
+
+public class Animal {
+//inner
+	public class Cat{
+		
+	}
+}
