@@ -1,9 +1,0 @@
-Về đa hình:
-chú ý bản chất khai báo hàm
-tuy nhiên, khi chạy là runtime gọi đến đối tượng thực của nó chứ ko phải CLASS nhé !
-Chú ý về ép kiểu : cần xem thử đối tượng thực của nó là gì để ép !!!
-
-Đóng gói là sử dụng quản lí truy cập ( như private) để bảo mật
-
-abstract là khai báo lớp chỉ làm lớp cha,
-hàm abstract chỉ trong lớp abstract

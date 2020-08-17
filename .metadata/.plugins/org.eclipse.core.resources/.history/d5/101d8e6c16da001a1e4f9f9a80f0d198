@@ -1,4 +1,0 @@
-Về đa hình:
-chú ý bản chất khai báo hàm
-tuy nhiên, khi chạy là runtime gọi đến đối tượng thực của nó chứ ko phải CLASS nhé !
-Chú ý về ép kiểu : cần xem thử đối tượng thực của nó là gì để ép !!!

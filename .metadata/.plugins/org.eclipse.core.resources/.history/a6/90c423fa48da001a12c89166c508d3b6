@@ -1,5 +1,0 @@
-package inner;
-
-public class SubClass extends Person.Kid{
-// kế thừa như thường
-}

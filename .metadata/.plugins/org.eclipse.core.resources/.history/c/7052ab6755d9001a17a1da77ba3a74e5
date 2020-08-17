@@ -1,6 +1,0 @@
-package application;
-
-public class Employee extends Person{
-private double luong;
-
-}

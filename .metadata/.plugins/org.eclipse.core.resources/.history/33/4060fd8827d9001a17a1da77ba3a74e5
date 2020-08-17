@@ -1,7 +1,0 @@
-package is_has;
-
-public class Person {
-private String ten;
-private DiaChi diaChi;
-
-}

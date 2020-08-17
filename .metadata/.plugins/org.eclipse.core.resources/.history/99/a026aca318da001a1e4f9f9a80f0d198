@@ -1,8 +1,0 @@
-package abs;
-
-public class Employee extends Person {
-	@Override
-	public double luong() {
-		return 1;
-	}
-}
